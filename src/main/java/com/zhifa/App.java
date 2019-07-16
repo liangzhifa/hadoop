@@ -25,6 +25,7 @@ public class App
         //列出hdfs上 /input 目录下的所有文件
         FileStatus[] statuses = fs.listStatus(new Path("/"));
         for (FileStatus status:statuses){
+            System.out.println(status.getLen());
             System.out.println(status);
         }
 

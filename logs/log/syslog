@@ -198,3 +198,5 @@ WARN :  Unable to load native-hadoop library for your platform... using builtin-
 WARN :  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 2019-07-16 19:47:56 org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) 
 WARN :  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-07-16 20:12:36 org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) 
+WARN :  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
