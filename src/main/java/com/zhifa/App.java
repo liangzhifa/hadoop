@@ -16,7 +16,8 @@ import java.net.URI;
 public class App 
 {
     public static void main( String[] args ) throws IOException, InterruptedException {
-        System.setProperty("hadoop.home.dir", "D:\\hadoop-common-2.2.0-bin");
+        //System.setProperty("hadoop.home.dir", "D:\\hadoop-common-2.2.0-bin");
+        System.setProperty("hadoop.home.dir", "C:\\Users\\jack\\Desktop\\hadoop\\hadoop\\src\\main\\resources");
         System.out.println( "Hello World!" );
         String uri = "hdfs://47.100.45.101:9000/";
         Configuration conf = new Configuration();
@@ -25,7 +26,6 @@ public class App
         //列出hdfs上 /input 目录下的所有文件
         FileStatus[] statuses = fs.listStatus(new Path("/"));
         for (FileStatus status:statuses){
-            System.out.println(status.getLen());
             System.out.println(status);
         }
 
