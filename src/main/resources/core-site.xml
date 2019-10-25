@@ -19,6 +19,6 @@
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://47.100.45.101:9000</value>
+        <value>hdfs://zhifa:9000</value>
     </property>
 </configuration>
